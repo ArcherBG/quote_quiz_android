@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Famous Quote Quiz</string>
+
+    <!-- Fragment text strings-->
+    <string name="who_said_it_fragment">Who said it?</string>
+    <string name="dialog_message">this is message</string>
+    <string name="dialog_title">this is title</string>
+
+
+    <string name="correct_answer">Correct! The right answer is: </string>
+    <string name="wrong_answer">Sorry, you are wrong! The right answer is: </string>
+    <string name="okay_button">Okay</string>
+    <string name="play_again">play again</string>
+    <string name="result_part1">You have </string>
+    <string name="result_part2"> right answers out of 10 questions.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="multiple_choice_mode">Multiple choice mode</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+</resources>

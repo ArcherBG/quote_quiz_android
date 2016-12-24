@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/fragment_margin"
+    android:layout_marginRight="@dimen/fragment_margin"
+    android:layout_marginTop="@dimen/fragment_margin"
+    android:orientation="vertical"
+    tools:context="com.flatrocktechnology.android.famousquotequiz.fragments.MultipleChoiceModeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:text="@string/who_said_it_fragment"
+        android:textSize="@dimen/quoute_text_size" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:background="@drawable/textview_border"
+        android:minHeight="200dp"
+        android:padding="10dp"
+        android:textSize="@dimen/quoute_text_size"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/tvPossibleAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/bottom_margin"
+        android:paddingTop="@dimen/top_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom_margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTrue"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/yes" />
+
+        <Button
+            android:id="@+id/btnFalse"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/no" />
+    </LinearLayout>
+
+
+</LinearLayout>
